@@ -3,6 +3,7 @@ import { FaServer } from 'react-icons/fa'
 import { AiOutlineAntDesign, AiOutlineApi } from 'react-icons/ai'
 import { MdDeveloperMode } from 'react-icons/md'
 import { BsCircleFill } from 'react-icons/bs'
+import { DiDatabase } from 'react-icons/di'
 
 import { Project, Service, Skill } from './types'
 
@@ -26,56 +27,62 @@ const services: Service[] = [
          'I can develop robust  REST API using <b>Node API</b> ',
    },
    {
-      Icon: MdDeveloperMode,
-      title: 'Competitive Coder',
+      Icon: DiDatabase,
+      title: 'Database',
       about:
-         'a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ',
+         'Using <b>SQL</b> and <b>NoSql</b> database.',
    },
    {
       Icon: AiOutlineAntDesign,
       title: 'UI/UX designer',
       about:
-         'stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ',
+         'Using <b>Inkscape</b> vector graphics editor software and <b>Photopea</b> an online photo editor.',
    },
    {
-      Icon: RiComputerLine,
-      title: 'Whatever',
+      Icon: MdDeveloperMode,
+      title: 'Competitive Coder',
       about:
-         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!',
+         'A daily problem solver in <b>FreeCodeCamp</b>  and <b>LeetCode</b> ',
    },
 ]
 
 const languages: Skill[] = [
    {
       Icon: BsCircleFill,
-      name: 'Python',
-      level: '45',
+      name: 'JavaScript',
+      level: '95',
    },
    {
       Icon: BsCircleFill,
-      name: 'Java Script',
-      level: '60',
-   },
-   {
-      Icon: BsCircleFill,
-      name: 'React Native',
+      name: 'TypeScript',
       level: '80',
    },
    {
       Icon: BsCircleFill,
       name: 'React',
-      level: '70',
+      level: '90',
    },
    {
       Icon: BsCircleFill,
-      name: 'Django',
-      level: '80',
+      name: 'Angular',
+      level: '87',
+   },
+   {
+      Icon: BsCircleFill,
+      name: 'Express',
+      level: '90',
    },
    {
       Icon: BsCircleFill,
       name: 'Bootstrap',
+      level: '90',
+   },
+   {
+      Icon: BsCircleFill,
+      name: 'Next',
       level: '80',
    },
+
 ]
 
 const tools: Skill[] = [
