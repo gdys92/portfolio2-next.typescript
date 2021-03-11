@@ -5,7 +5,7 @@ import { MdDeveloperMode } from 'react-icons/md'
 import { BsCircleFill } from 'react-icons/bs'
 import { DiDatabase } from 'react-icons/di'
 
-import { Project, Service, Skill } from './types'
+import { Project, Service, Skill, Data } from './types'
 
 const services: Service[] = [
    {
@@ -88,24 +88,38 @@ const languages: Skill[] = [
 const tools: Skill[] = [
    {
       Icon: BsCircleFill,
-      name: 'Figma',
+      name: 'Postman',
       level: '85',
    },
    {
       Icon: BsCircleFill,
-      name: 'Photoshop',
-      level: '45',
+      name: 'Inkscape',
+      level: '95',
    },
    {
       Icon: BsCircleFill,
-      name: 'Illustrator',
-      level: '60',
+      name: 'Photopea',
+      level: '75',
+   },
+]
+
+
+const database: Data[] = [
+   {
+      Icon: BsCircleFill,
+      name: 'MongoDB',
+      level: '95',
    },
    {
       Icon: BsCircleFill,
-      name: 'Framer',
-      level: '45',
+      name: 'MySQL',
+      level: '90',
    },
+   {
+      Icon: BsCircleFill,
+      name: 'PostgreSQL',
+      level: '75',
+   }
 ]
 
 const projects: Project[] = [
@@ -238,4 +252,4 @@ const projects: Project[] = [
    },
 ]
 
-export { tools, languages, services, projects }
+export { tools, languages, services, projects, database }

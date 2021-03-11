@@ -4,6 +4,13 @@ export interface Skill {
    level: string
 }
 
+export interface Data {
+   Icon: any
+   name: string
+   level: string
+}
+
+
 export type Category =
    | 'react'
    | 'node'

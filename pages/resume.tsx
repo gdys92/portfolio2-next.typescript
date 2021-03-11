@@ -2,7 +2,7 @@ import Bar from '../components/Bar'
 import { motion } from 'framer-motion'
 import { fadeInUp } from '../animations'
 import Head from 'next/head'
-import { languages, tools } from '../data'
+import { languages, tools, database} from '../data'
 export default function About() {
    const variants = {
       hidden: {
@@ -90,25 +90,14 @@ export default function About() {
             </div>
          </div>
 
-         <div className='grid gap-9 md:grid-cols-2'>
-            <div>
-               <h5 className='my-3 text-2xl font-bold'>Project management</h5>
-               <div className='my-2'>
-                  {languages.map((language, i) => (
-                     <Bar value={language} key={i} />
-                  ))}
-               </div>
-            </div>
-
             <div>
                <h5 className='my-3 text-2xl font-bold'>Databases</h5>
                <div className='my-2'>
-                  {tools.map((tool, i) => (
-                     <Bar value={tool} key={i} />
+                  {database.map((database, i) => (
+                     <Bar value={database} key={i} />
                   ))}
                </div>
             </div>
-         </div>
 
       </motion.div>
    )
