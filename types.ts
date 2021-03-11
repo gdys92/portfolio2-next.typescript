@@ -15,11 +15,12 @@ export type Category =
    | 'react'
    | 'node'
    | 'mongo'
-   | 'socket'
-   | 'django'
+   | 'angular'
+   | 'typescript'
    | 'express'
-   | 'ml'
-   | 'vanilla'
+   | 'mysql'
+   | 'javascript'
+   | 'next'
 
 export interface Project {
    id: number

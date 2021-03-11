@@ -50,9 +50,24 @@ const Projects = () => {
                className={`cursor-pointer hover:text-pouple ${
                   active === 'react' ? 'text-pouple' : ''
                }`}
-               // use typescript to send value
                onClick={() => handleFilterCategory('react')}>
                React
+            </li>
+
+            <li
+               className={`cursor-pointer hover:text-pouple ${
+                  active === 'react' ? 'text-pouple' : ''
+               }`}
+               onClick={() => handleFilterCategory('next')}>
+               Next
+            </li>
+
+            <li
+               className={`cursor-pointer hover:text-pouple ${
+                  active === 'react' ? 'text-pouple' : ''
+               }`}
+               onClick={() => handleFilterCategory('angular')}>
+               Angular
             </li>
 
             <li
@@ -62,6 +77,15 @@ const Projects = () => {
                onClick={() => handleFilterCategory('mongo')}>
                Mongo
             </li>
+
+            <li
+               className={`cursor-pointer hover:text-pouple ${
+                  active === 'mongo' ? 'text-pouple' : ''
+               }`}
+               onClick={() => handleFilterCategory('mysql')}>
+               MySql
+            </li>
+
             <li
                className={`cursor-pointer hover:text-pouple ${
                   active === 'express' ? 'text-pouple' : ''
@@ -72,11 +96,20 @@ const Projects = () => {
 
             <li
                className={`cursor-pointer hover:text-pouple ${
-                  active === 'django' ? 'text-pouple' : ''
+                  active === 'typescript' ? 'text-pouple' : ''
                }`}
-               onClick={() => handleFilterCategory('django')}>
-               Django
+               onClick={() => handleFilterCategory('typescript')}>
+               TypeScript
             </li>
+
+            <li
+               className={`cursor-pointer hover:text-pouple ${
+                  active === 'typescript' ? 'text-pouple' : ''
+               }`}
+               onClick={() => handleFilterCategory('javascript')}>
+               JavaScript
+            </li>
+
          </nav>
 
          <motion.div
