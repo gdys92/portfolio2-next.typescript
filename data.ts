@@ -129,7 +129,7 @@ const projects: Project[] = [
       image_path: '/images/mean-photo-galery.png',
       deployed_url: '!#',
       github_url: 'https://github.com/gdys92/MEAN-photo-gallery',
-      category: ['angular', 'typescript'],
+      category: ['angular', 'typescript', 'mongo'],
       description:
          'Full Stack MEAN application using Angular, Node.js, Express, MongoDB & Typescript',
       key_points: ['Angular', 'Mongo', 'TypeScript'],
@@ -141,7 +141,7 @@ const projects: Project[] = [
       image_path: '/images/weather-app.png',
       deployed_url: '!#',
       github_url: 'https://github.com/gdys92/react-weather-app',
-      category: ['react', 'typescript'],
+      category: ['react', 'typescript', 'mongo'],
       description:
          'Weather application using React, Redux & Typescript.',
       key_points: ['React', 'Mongo', 'TypeScript'],
@@ -181,17 +181,17 @@ const projects: Project[] = [
       category: ['javascript'],
       description:
          'Website using Giphy API.',
-      key_points: ['JavaScript'],
+      key_points: ['JavaScript', 'Giphy API'],
    },
    {
       id: 4,
-      name: 'Dev Portfolio',
-      image_path: '/images/portfolio.jpg',
-      deployed_url: '!#',
+      name: 'Popcorn Time',
+      image_path: '/images/Popcorn-Time.png',
+      deployed_url: 'https://gdys92.github.io/Popcorn-Time/index.html',
       category: ['javascript'],
-      github_url: 'https://github.com/Dey-Sumit/tweetme',
-      description: 'Hey, You are seeing this project now...Enjoy',
-      key_points: ['Next.js', 'Framer Motion', 'TypeScript', 'Tailwind'],
+      github_url: 'https://github.com/gdys92/Popcorn-Time',
+      description: 'Movie finder, using OMDB (Open Movie Database) API.',
+      key_points: ['JavaScript', 'OMDB (Open Movie DataBase) API'],
    },
 
    {
@@ -207,40 +207,26 @@ const projects: Project[] = [
    },
    {
       id: 6,
-      name: 'YouTube using YouTube ',
-      image_path: '/images/youtubeClone.png',
+      name: 'React piano ',
+      image_path: '/images/react-piano.png',
       deployed_url: '!#',
-      github_url: 'https://github.com/Dey-Sumit/youtube-clone-tutorial-up',
-      category: ['express', 'mysql'],
+      github_url: 'https://github.com/gdys92/react-piano',
+      category: ['react', 'typescript'],
       description:
-         'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
-      key_points: [
-         'React',
-         'Redux',
-         'Firebase Auth',
-         'YouTube API',
-         'Sass',
-         'Bootstrap',
-      ],
+         'React piano',
+      key_points: ['React','typescript',],
    },
    {
       id: 9,
-      name: 'Football App',
+      name: 'portfolio2',
       //TODO add image,github,dep url
-      image_path: '/images/football.png',
+      image_path: '/images/portfolio2.png',
       deployed_url: '!#',
-      github_url: 'https://github.com/Dey-Sumit/football-app',
-      category: ['react'],
+      github_url: 'https://github.com/gdys92/portfolio2-next.typescript',
+      category: ['next', 'typescript'],
       description:
-         'o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ',
-      key_points: [
-         'React',
-         'Redux',
-         'Firebase Auth',
-         'API',
-         'Sass',
-         'Bootstrap',
-      ],
+         'Portfolio2',
+      key_points: ['Next','Typescript',],
    },
 ]
 
