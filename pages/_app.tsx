@@ -31,7 +31,7 @@ function MyApp({ Component, pageProps, router }) {
                href='/favicon.png'
                rel='icon'
                type='image/png'
-               sizes='16x16'
+               sizes='16x1'
             />
             <link rel='apple-touch-icon' href='/favicon.png'></link>
             <meta name='theme-color' content='#317EFB' />
