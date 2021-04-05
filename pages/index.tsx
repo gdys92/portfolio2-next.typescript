@@ -14,7 +14,7 @@ const About = () => {
          animate='visible'
          exit='exit'>
          <Head>
-            <title>Gledys Muguerza | Web Developer | Abou</title>
+            <title>Gledys Muguerza | Web Developer | About</title>
          </Head>
 
          <h6 className='my-3 text-base font-medium'>
