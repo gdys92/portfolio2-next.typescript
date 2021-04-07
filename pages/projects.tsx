@@ -56,7 +56,7 @@ const Projects = () => {
 
             <li
                className={`cursor-pointer hover:text-pouple ${
-                  active === 'react' ? 'text-pouple' : ''
+                  active === 'next' ? 'text-pouple' : ''
                }`}
                onClick={() => handleFilterCategory('next')}>
                Next
@@ -64,7 +64,7 @@ const Projects = () => {
 
             <li
                className={`cursor-pointer hover:text-pouple ${
-                  active === 'react' ? 'text-pouple' : ''
+                  active === 'angular' ? 'text-pouple' : ''
                }`}
                onClick={() => handleFilterCategory('angular')}>
                Angular
@@ -80,7 +80,7 @@ const Projects = () => {
 
             <li
                className={`cursor-pointer hover:text-pouple ${
-                  active === 'mongo' ? 'text-pouple' : ''
+                  active === 'mysql' ? 'text-pouple' : ''
                }`}
                onClick={() => handleFilterCategory('mysql')}>
                MySql
@@ -104,7 +104,7 @@ const Projects = () => {
 
             <li
                className={`cursor-pointer hover:text-pouple ${
-                  active === 'typescript' ? 'text-pouple' : ''
+                  active === 'javascript' ? 'text-pouple' : ''
                }`}
                onClick={() => handleFilterCategory('javascript')}>
                JavaScript
