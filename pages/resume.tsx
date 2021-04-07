@@ -81,7 +81,7 @@ export default function About() {
             </div>
 
             <div>
-               <h5 className='my-3 text-2xl font-bold'>Tools & Softwares</h5>
+               <h5 className='my-3 text-2xl font-bold'>Tools & Software</h5>
                <div className='my-2'>
                   {tools.map((tool, i) => (
                      <Bar value={tool} key={i} />
