@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps, router }) {
             />
             <meta
                name='keywords'
-               content='Full Stack Web Developer, MERN developer'
+               content='Full Stack Web Developer, MERN developer, MEAN developer'
             />
             <meta
                name='viewport'
