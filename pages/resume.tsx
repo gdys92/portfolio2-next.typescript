@@ -64,7 +64,7 @@ export default function About() {
                   • MEAN application development (Angular, Express.js, Node.js and MongoDB).
                   • MERN application development (React.js, Express.js, Next.js, Node.js and MongoDB).
                   • Testing in multiple browsers and devices.
-                  • Responsive / mobile design.
+                  • Responsive / mobile desig.
                   </p>
                </div>
             </motion.div>
