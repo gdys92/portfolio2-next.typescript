@@ -13,7 +13,7 @@ module.exports = {
         //TODO add pouple
         colors: {
          pouple: {
-              DEFAULT: '#59076',
+              DEFAULT: '#590767',
            },
            //TODO change to dark and light
            black: {
