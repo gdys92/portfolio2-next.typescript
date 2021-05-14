@@ -50,7 +50,7 @@ export default function About() {
                   JavaScript: Each behavior that happens on a website, define
                   actions, and communicate with external services is captured.
                   BACKEND: Applications that persistently store data will be
-                  performed using database managemen.
+                  performed using database management.
                   </p>
                </div>
             </motion.div>
