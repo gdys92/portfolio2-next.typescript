@@ -13,7 +13,7 @@ export default function Sidebar() {
    return (
       <>
          <img
-            src='https://media-exp1.licdn.com/dms/image/C4D03AQHyNgACMvBD4w/profile-displayphoto-shrink_800_800/0/1590507367711?e=1620259200&v=beta&t=uHOa8RKH2aDJx30c_VO3qHQIwwm1z-YpzYbda5DAsHQ'
+            src='https://media-exp1.licdn.com/dms/image/C4D03AQHyNgACMvBD4w/profile-displayphoto-shrink_800_800/0/1590507367711?e=1626307200&v=beta&t=7_d7jL8-ETJnkjyTQgwd96kwCVI4N6J9YglYpqpK7LU'
             alt='avatar'
             className='w-32 h-32 mx-auto border rounded-full'
          />
