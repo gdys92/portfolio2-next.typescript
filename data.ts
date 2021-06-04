@@ -22,7 +22,7 @@ const services: Service[] = [
    },
    {
       Icon: AiOutlineApi,
-      title: 'AP Development',
+      title: 'API Development',
       about:
          'I can develop robust  REST API using <b>Node API</b> ',
    },
