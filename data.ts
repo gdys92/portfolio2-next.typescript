@@ -34,7 +34,7 @@ const services: Service[] = [
    },
    {
       Icon: AiOutlineAntDesign,
-      title: 'UI/U designer',
+      title: 'UI/UX designer',
       about:
          'Using <b>Inkscape</b> vector graphics editor software and <b>Photopea</b> an online photo editor.',
    },
