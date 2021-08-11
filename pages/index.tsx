@@ -18,8 +18,8 @@ const About = () => {
          </Head>
 
          <h6 className='my-3 text-base font-medium'>
-             I have 3+ years of
-            experience in Web Development.
+             I have 4+ years of
+            experience in Web Development
          </h6>
          <div
             className='flex-grow p-4 mt-5 bg-gray-400 dark:bg-black-100'
