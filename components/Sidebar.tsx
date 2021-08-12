@@ -50,7 +50,7 @@ export default function Sidebar() {
             className='py-4 my-5 bg-gray-200 dark:bg-black-500'
             style={{ marginLeft: '-1rem', marginRight: '-1rem' }}>
             <div className='flex items-center justify-center'>
-             <span className='my-2'>Buenos Aires, Argentina </span>
+             <span className='my-2'>Buenos Aires, Argentin </span>
             </div>
             <p className='my-2'> +54 1132126898 </p>
          </div>
