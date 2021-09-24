@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps, router }) {
       <ThemeProvider attribute='class'>
          <Head>
             {' '}
-            <title>Ful Stack Web Developer | Frontend Developer | Web Designer</title>
+            <title>Full Stack Web Developer | Frontend Developer | Web Designer</title>
             <meta
                name='description'
                content='MERN stack developer looking for a job'
