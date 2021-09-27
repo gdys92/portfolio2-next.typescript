@@ -33,6 +33,6 @@ export const pageAnimation = {
       transition: {
          delay: 0.1,
          ease: 'easeInOut',
-      },
+      }
    },
 }
