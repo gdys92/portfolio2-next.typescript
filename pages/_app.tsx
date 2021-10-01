@@ -54,7 +54,7 @@ function MyApp({ Component, pageProps, router }) {
    )
 }
 
-export default MyAp
+export default MyApp
 
 
 
