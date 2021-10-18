@@ -27,7 +27,7 @@ const services: Service[] = [
          'I can develop robust  REST API using <b>Node API</b> ',
    },
    {
-      Icon: DiDatabase
+      Icon: DiDatabase,
       title: 'Database',
       about:
          'Using <b>SQL</b> and <b>NoSql</b> database.',
