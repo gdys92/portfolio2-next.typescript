@@ -24,7 +24,7 @@ const services: Service[] = [
       Icon: AiOutlineApi,
       title: 'API Development',
       about:
-         'I ca develop robust  REST API using <b>Node API</b> ',
+         'I can develop robust  REST API using <b>Node API</b> ',
    },
    {
       Icon: DiDatabase,
