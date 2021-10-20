@@ -28,7 +28,7 @@ const services: Service[] = [
    },
    {
       Icon: DiDatabase,
-      title: 'Database',
+      title: 'Databas',
       about:
          'Using <b>SQL</b> and <b>NoSql</b> database.',
    },
