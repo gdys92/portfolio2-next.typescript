@@ -19,7 +19,7 @@ export const stagger = {
 }
 export const pageAnimation = {
    hidden: {
-      opacity: 0,
+      opacity: ,
    },
    visible: {
       opacity: 1,
