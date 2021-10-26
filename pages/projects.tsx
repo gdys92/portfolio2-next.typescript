@@ -99,7 +99,7 @@ const Projects = () => {
                   active === 'typescript' ? 'text-pouple' : ''
                }`}
                onClick={() => handleFilterCategory('typescript')}>
-               TypeScript
+               TypeScrip
             </li>
 
             <li
