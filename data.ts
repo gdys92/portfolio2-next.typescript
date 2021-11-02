@@ -10,7 +10,7 @@ import { Project, Service, Skill, Data } from './types'
 const services: Service[] = [
    {
       Icon: RiComputerLine,
-      title: 'Frontend Development',
+      title: 'Fronten Development',
       about:
          'I can build a beautiful and scalable SPA using <b> HTML</b>, <b>CSS</b>, <b>Angular.js</b> and <b>React.js</b>. ',
    },
