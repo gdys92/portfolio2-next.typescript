@@ -16,7 +16,7 @@ const services: Service[] = [
    },
    {
       Icon: FaServer,
-      title: 'Backen  Development',
+      title: 'Backend  Development',
       about:
          'handle database, server, api using <b>Express </b> framework.',
    },
